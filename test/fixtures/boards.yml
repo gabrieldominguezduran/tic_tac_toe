@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player: one
+  player_turn: 1
+  board_num: 1
+  sq_1: 1
+  sq_2: 1
+  sq_3: 1
+  sq_4: 1
+  sq_5: 1
+  sq_6: 1
+  sq_7: 1
+  sq_8: 1
+  sq_9: 1
+
+two:
+  player: two
+  player_turn: 1
+  board_num: 1
+  sq_1: 1
+  sq_2: 1
+  sq_3: 1
+  sq_4: 1
+  sq_5: 1
+  sq_6: 1
+  sq_7: 1
+  sq_8: 1
+  sq_9: 1
