@@ -1,0 +1,13 @@
+<% 3.times do |row| %>
+  <div class="rows"> 
+    <% 3.times do |col| %>
+      <span class="cells d-flex justify-content-center align-items-center">
+       <% if !game[row, col].nil? %>
+        <%= game[row, col] %>
+        <% else %>
+            <a href="##"><% game.current_player %>X</a>
+        <% end %>
+      </span> 
+    <% end %>
+  </div>
+<% end %>
