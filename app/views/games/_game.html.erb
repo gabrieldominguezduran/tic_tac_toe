@@ -1,11 +1,12 @@
+<h3 class="text-center"><%= game.current_player %> Moves</h3>
 <% 3.times do |row| %>
   <div class="rows"> 
     <% 3.times do |col| %>
       <span class="cells d-flex justify-content-center align-items-center">
        <% if !game[row, col].nil? %>
-        <%= game[row, col] %>
+       <h1><%= game[row, col] %></h1>
         <% else %>
-            <a href="##"><% game.current_player %>X</a>
+        <%= button_to ' ', game_moves_path(game), params: { row: row, col: col }, method: :post, :class => "btn btn-outline-light btn-block" %>
         <% end %>
       </span> 
     <% end %>

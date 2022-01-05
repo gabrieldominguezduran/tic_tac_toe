@@ -1,5 +1,6 @@
 <main class="container d-flex flex-column justify-content-center align-items-center">
   <h1 class="my-5">Let's play!</h1>
+    <%= turbo_stream_from @game %>
     <section id="<%= dom_id(@game) %>">
       <%= render @game %>
     </section>
